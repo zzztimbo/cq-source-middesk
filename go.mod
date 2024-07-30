@@ -3,14 +3,15 @@ module github.com/zzztimbo/cq-source-middesk
 go 1.22.4
 
 require (
-	github.com/apache/arrow/go/v17 v17.0.0
 	github.com/cloudquery/plugin-sdk/v4 v4.51.0
 	github.com/rs/zerolog v1.33.0
+	golang.org/x/sync v0.7.0
 )
 
 require (
 	github.com/adrg/xdg v0.4.0 // indirect
 	github.com/apache/arrow/go/v13 v13.0.0-20230731205701-112f94971882 // indirect
+	github.com/apache/arrow/go/v17 v17.0.0 // indirect
 	github.com/apapsch/go-jsonmerge/v2 v2.0.0 // indirect
 	github.com/bahlo/generic-list-go v0.2.0 // indirect
 	github.com/buger/jsonparser v1.1.1 // indirect
