@@ -24,4 +24,7 @@ dist
 
 .cq
 
-.db
+*.db
+*.db.*
+
+config.yaml
