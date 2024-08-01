@@ -23,7 +23,7 @@ type MiddeskBusinessRegistration struct {
 
 type MiddeskBusinessRaw struct {
 	Id            string                        `json:"id"`
-	ExternalId    string                        `json:"external_id"`
+	ExternalId    *string                       `json:"external_id"`
 	CreatedAt     time.Time                     `json:"created_at"`
 	Status        string                        `json:"status"`
 	Formation     MiddeskBusinessFormation      `json:"formation"`
@@ -32,7 +32,7 @@ type MiddeskBusinessRaw struct {
 
 type MiddeskBusiness struct {
 	Id                       string
-	ExternalId               string
+	ExternalId               *string
 	CreatedAt                time.Time
 	Status                   string
 	FormationEntityType      string
