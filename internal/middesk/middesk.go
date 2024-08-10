@@ -14,7 +14,7 @@ type MiddeskBusinessId struct {
 }
 
 type MiddeskBusinessFormation struct {
-	EntityType string `json:"entity_type"`
+	EntityType *string `json:"entity_type"`
 }
 
 type MiddeskBusinessRegistration struct {
@@ -35,7 +35,7 @@ type MiddeskBusiness struct {
 	ExternalId               *string
 	CreatedAt                time.Time
 	Status                   string
-	FormationEntityType      string
+	FormationEntityType      *string
 	RegistrationsEntityTypes []string
 }
 
